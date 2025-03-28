@@ -1,0 +1,4 @@
+
+> weather-http-server@0.0.1 start
+> node dist/index.js
+
