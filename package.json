@@ -10,13 +10,15 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc && mcp-build",
+    "build": "tsc",
     "watch": "tsc --watch",
     "start": "node dist/index.js"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
     "@types/axios": "^0.14.4",
     "axios": "^1.8.4",
+    "eventsource": "^3.0.6",
     "mcp-framework": "^0.2.2",
     "zod": "^3.24.2"
   },
